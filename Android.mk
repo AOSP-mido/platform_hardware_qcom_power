@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq ($(call my-dir),$(call project-path-for,qcom-power))
+#ifeq ($(call my-dir),$(call project-path-for,qcom-power))
 
 LOCAL_PATH := $(call my-dir)
 
@@ -145,4 +145,4 @@ include $(BUILD_EXECUTABLE)
 
 endif
 
-endif
+#endif
